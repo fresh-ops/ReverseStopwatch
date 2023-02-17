@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">ReverseStopwatch</string>
+    <string name="app_name">Обратный секундомер</string>
+    <string name="start">Старт</string>
+    <string name="reset">Сброс</string>
+    <string name="pause">Пауза</string>
+    <string name="reverse">Обратно</string>
+    <string name="time_hint">Нажмите Старт для начала отсчёта</string>
 </resources>
