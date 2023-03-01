@@ -29,7 +29,7 @@ public class Stopwatch {
             currentTime += SystemClock.uptimeMillis() - startTime;
         }
         else {
-            currentTime -= SystemClock.uptimeMillis() - startTime;
+            currentTime -= (SystemClock.uptimeMillis() - startTime);
         }
     }
 
@@ -44,7 +44,9 @@ public class Stopwatch {
      * Метод, меняющий ход времени
      */
     public void reverse() {
+        pause();
         reverse = ! reverse;
+        start();
     }
 
     /**
